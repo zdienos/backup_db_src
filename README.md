@@ -1,5 +1,5 @@
-Centos-Backup-Script
-====================
+Backup Database and Source
+==========================
 
 The purpose of this script is to create daily backup archives (`tar.gz`) of selected directories/files and/or MYSQL dumps.
 
@@ -26,7 +26,7 @@ Documentation
 
 	    mkdir /scripts
 	    cd /scripts
-	    git clone https://github.com/ET-CS/Centos-Backup-Script.git
+	    git clone https://github.com/zdienos/backup_db_src.git
 
 	or copy the files manually to your prefered directory.
 
@@ -92,9 +92,5 @@ for example:
 
 add inside:
 
-	    0 0 * * * /scripts/Centos-Backup-Script/backup.sh
+	    0 0 * * * /scripts/backup.sh
 
-Authors: [RaveMaker][RaveMaker] & [ET][ET].
-
-[RaveMaker]: http://ravemaker.net
-[ET]: http://etcs.me
